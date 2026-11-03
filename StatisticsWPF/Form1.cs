@@ -68,7 +68,7 @@ namespace StatisticsWPF
                 .Where(g => g.Count() == numbers.GroupBy(n => n).Max(g2 => g2.Count()))
                 .Select(g => g.Key)
                 .ToList();
-
+    lblOutput.Text = "Answer: " + modeMultiple;
         }
     }
 }
