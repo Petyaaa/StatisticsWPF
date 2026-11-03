@@ -97,7 +97,7 @@ namespace StatisticsWPF
             this.btnMedian.TabIndex = 5;
             this.btnMedian.Text = "Median";
             this.btnMedian.UseVisualStyleBackColor = true;
-            this.btnMedian.Click += new System.EventHandler(this.button2_Click);
+            this.btnMedian.Click += new System.EventHandler(this.btnMedian_Click);
             // 
             // Form1
             // 
